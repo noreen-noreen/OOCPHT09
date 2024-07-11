@@ -1,0 +1,59 @@
+span{
+    color:blue;
+}
+
+.classname{
+color: aqua;
+}
+
+#id-name{
+    color: orange;
+}
+
+*{
+    color: pink;
+    font-size: 25px;
+}
+
+a[href]{
+    color:purple;
+}
+
+a[href="www.sample.com"]{
+color: green;
+}
+
+h1, .parag, h2{
+    color: brown;
+}
+
+/* Descendant selectors*/
+.ancestor h3{
+color: tomato;
+}
+.ancestor p{
+    color: yellow;
+}
+
+/* Pseudo-classes */
+button:hover{
+    background-color: black;
+    color: white;
+}
+a[href='https://www.example.com'] {
+    color:fuchsia;
+}
+
+/*Pseudo-elements*/
+#pseudo-element::before{
+    content: "This is a paragraph";
+color: black;
+}
+.pseudo-element::after{
+    content: "This ia a paragraph";
+    color: rgb(222, 43, 222);
+}
+.pseudo-element::first-letter{
+    color: greenyellow;
+    font-size: 40px;
+}
